@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [vezba za zadatak]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Registracija(failed)">
+    <parameter name="lastName" value="Markoeevic"/>
+    <parameter name="search" value="watermelon"/>
+    <parameter name="password" value="eesdfdwee22"/>
+    <parameter name="name" value="Markee"/>
+    <parameter name="email" value="maeerko@marko.com"/>
+    <classes>
+      <class name="vezbaZadatak.Pokretac">
+        <methods>
+          <include name="registracijaKorisnika"/>
+          <include name="afterClass"/>
+          <include name="logovanje"/>
+          <include name="beforeClass"/>
+          <include name="unesiKorisnika"/>
+          <include name="search"/>
+          <include name="potvrdaKorisnika"/>
+        </methods>
+      </class> <!-- vezbaZadatak.Pokretac -->
+    </classes>
+  </test> <!-- Registracija(failed) -->
+</suite> <!-- Failed suite [vezba za zadatak] -->

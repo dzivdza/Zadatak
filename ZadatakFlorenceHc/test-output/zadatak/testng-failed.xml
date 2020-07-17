@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [zadatak]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="HobbyRC(failed)">
+    <parameter name="lastName" value="oddexcvvic"/>
+    <parameter name="search" value="wateddrmelon"/>
+    <parameter name="password" value="edsdfswcvee22"/>
+    <parameter name="name" value="aMxdcar"/>
+    <parameter name="email" value="erksdvvc@mo.com"/>
+    <classes>
+      <class name="zadatakHobbyRC.Tests">
+        <methods>
+          <include name="userRegistration"/>
+          <include name="enterUNAndPss"/>
+          <include name="beforeClass"/>
+          <include name="search" invocation-numbers="0"/>
+          <include name="newUserRegistrated"/>
+          <include name="logIn"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- zadatakHobbyRC.Tests -->
+    </classes>
+  </test> <!-- HobbyRC(failed) -->
+</suite> <!-- Failed suite [zadatak] -->
